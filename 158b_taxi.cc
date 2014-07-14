@@ -5,6 +5,8 @@ using namespace std;
 int main(){
   int n;
   cin >> n;
+  // can't initialize a vector with its element;
+  //vector<int> test(1,2,3,4);
   vector<int> stat(4,0);
   for(int i = 0;i < n;i++){
     int tmp;
